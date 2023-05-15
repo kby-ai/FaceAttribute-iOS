@@ -230,12 +230,10 @@ class CaptureViewController: UIViewController, AVCaptureVideoDataOutputSampleBuf
                     anglePath.move(to: CGPoint(x: roiRect.midX, y: roiRect.minY))
                     anglePath.addQuadCurve(to: CGPoint(x: roiRect.midX, y: roiRect.maxY), controlPoint: CGPoint(x: roiRect.midX - roiRect.width * CGFloat(sin(yaw * .pi / 180)), y: roiRect.midY))
                     anglePath.addQuadCurve(to: CGPoint(x: roiRect.midX, y: roiRect.minY), controlPoint: CGPoint(x: roiRect.midX - roiRect.width * CGFloat(sin(yaw * .pi / 180)) / 3, y: roiRect.midY))
-                    anglePath.stroke()
 
                     anglePath.move(to: CGPoint(x: roiRect.minX, y: roiRect.midY))
                     anglePath.addQuadCurve(to: CGPoint(x: roiRect.maxX, y: roiRect.midY), controlPoint: CGPoint(x: roiRect.midX, y: roiRect.midY + roiRect.width * CGFloat(sin(pitch * .pi / 180))))
                     anglePath.addQuadCurve(to: CGPoint(x: roiRect.minX, y: roiRect.midY), controlPoint: CGPoint(x: roiRect.midX, y: roiRect.midY + roiRect.width * CGFloat(sin(pitch * .pi / 180)) / 3))
-                    anglePath.stroke()
                     
                     angleLayer.path = anglePath.cgPath
                     angleLayer.strokeColor = UIColor(named: "clr_roi_line")?.withAlphaComponent(0.5).cgColor
