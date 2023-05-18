@@ -2,6 +2,10 @@
   <img src="https://user-images.githubusercontent.com/125717930/225975240-24b9a8ad-8cc6-4d5f-9a91-1435951b0bd7.png" width="120" alt="Nest Logo" />
 </p>
 
+👏  We have published the Face Livness Detection SDK for the server.
+
+  - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
+
 # FaceAttribute-iOS
 
 ## Introduction
@@ -16,9 +20,7 @@ The demo also features an automatic Face Capture function that verifies various 
 
 Moreover, the demo can compute scores for different face attributes from a gallery image, including liveness, face orientation (yaw, roll, pitch), face quality, luminance of the face, facial occlusion, eye closure, mouth opening, age, and gender.
 
-:star: :star: :star: Do not forget to star (Top right of this page) it if you like this repo :star: :star: :star:
-
-> The demo is integrated with KBY-AI's Premium Face SDK.
+> The demo is integrated with KBY-AI's Premium Face Mobile SDK.
 
   | Basic      | Standard | Premium |
   |------------------|------------------|------------------|
