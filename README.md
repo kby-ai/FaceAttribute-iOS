@@ -167,7 +167,7 @@ The face attribute project relies on kby-ai's SDK, which requires a license for 
 
   The function returns a list of FaceBox objects.
 
-### - Create Templates
+#### - Create Templates
 
   The FaceSDK provides a function that can generate a template from a UIImage image. This template can then be used to verify the identity of the individual captured in the image.
 
@@ -179,7 +179,7 @@ The face attribute project relies on kby-ai's SDK, which requires a license for 
 
   The function returns a Data, which contains the template that can be used for person verification.
 
-### - Calculation similiarity
+#### - Calculation similiarity
 
   The "similarityCalculation" function takes a byte array of two templates as a parameter. 
 
