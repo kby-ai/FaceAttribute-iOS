@@ -44,6 +44,7 @@ Moreover, the demo can compute scores for different face attributes from a galle
   |         |         | Age, Gender Estimation |
 
 > For other solutions, please explore the following:
+>
 > [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
 > 
 > [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
