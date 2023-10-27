@@ -24,7 +24,7 @@ This demo project integrates several facial recognition technologies, including 
 
 The system utilizes Face Liveness Detection technology to generate a real-time liveness score based on a single image captured by the camera. 
 
-Additionally, the demo offers Face Recognition capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
+Additionally, this demo offers Face Recognition capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
 
 The demo also features an automatic Face Capture function that verifies various facial attributes, such as face quality, facial orientation (yaw, roll, pitch), facial occlusion (e.g., mask, sunglass, hand over face), eye closure, mouth opening, and the position of the face within the region of interest (ROI).
 
@@ -89,7 +89,7 @@ Moreover, the demo can compute scores for different face attributes from a galle
 
 ## SDK License
 
-The face attribute project relies on kby-ai's SDK, which requires a license for each bundle ID.
+The face attribute project relies on KBY-AI's SDK, which requires a license for each bundle ID.
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceAttribute-iOS/blob/3e377692dcd101067ba57033db8a43a84ceced28/FaceAttribute/ViewController.swift#L42-L51
 
