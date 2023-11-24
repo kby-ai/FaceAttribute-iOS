@@ -84,7 +84,7 @@ Moreover, the demo can compute scores for different face attributes from a galle
 <p float="left">
   <img src="https://github.com/kby-ai/FaceAttribute-iOS/assets/125717930/4a270e7c-8840-44ea-8e55-9625bd70f196" width=240/>
   <img src="https://github.com/kby-ai/FaceAttribute-iOS/assets/125717930/6383b0b8-7ada-4f50-ab77-bf60e8c09580" width=240/>
-  <img src="https://github.com/kby-ai/FaceAttribute-iOS/assets/125717930/ff9758fd-51ed-4c78-a1fd-074fed5a33e4" width=240/>
+  <img src="https://github.com/kby-ai/FaceAttribute-iOS/assets/125717930/159cc87d-82cc-407d-9948-9b7825f5902e" width=240/>
 </p>
 
 ## SDK License
