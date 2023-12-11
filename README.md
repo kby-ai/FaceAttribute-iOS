@@ -102,6 +102,8 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
   WhatsApp: +19092802609
 
   Skype: live:.cid.66e2522354b1049b
+
+  Facebook: https://www.facebook.com/KBYAI
   ```
 
 ## About SDK
