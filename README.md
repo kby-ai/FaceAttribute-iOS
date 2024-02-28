@@ -4,17 +4,10 @@
   </a>  
 </p>
 
-👏 Product List
-
-https://github.com/kby-ai/Product
-
-👏  We have published the Face Liveness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
-
-  - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
-
-  - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
-
-  - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 # FaceAttribute-iOS
 
@@ -44,23 +37,15 @@ Moreover, the demo can compute scores for different face attributes from a galle
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
 
-> For other solutions, please explore the following:
->
-> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
-> 
-> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-> 
-> [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
-> 
-> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
-> 
-> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
-> 
-> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
->
-> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
-> 
-> [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
+> For other solutions, please explore the following:</br>
+> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)</br>
+> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)</br>
+> [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)</br>
+> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)</br>
+> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)</br>
+> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)</br>
+> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)</br>
+> [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)</br>
 
 ## Download on the App Store
 
@@ -96,13 +81,9 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 - To request a license, please contact us:
   ```
   Email: contact@kby-ai.com
-
   Telegram: @kbyai
-
   WhatsApp: +19092802609
-
   Skype: live:.cid.66e2522354b1049b
-
   Facebook: https://www.facebook.com/KBYAI
   ```
 
