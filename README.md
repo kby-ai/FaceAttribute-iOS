@@ -4,63 +4,53 @@
   </a>  
 </p>
 
-👏 Product List
-
-https://github.com/kby-ai/Product
-
-👏  We have published the Face Liveness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
-
-  - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
-
-  - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
-
-  - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 # FaceAttribute-iOS
 
 ## Overview
 
-This demo project integrates several facial recognition technologies, including 3D passive face liveness detection, face recognition, automatic face capture, and analysis of various face attributes such as age, gender, face quality, facial occlusion, eye closure, and mouth opening.
+This repository integrates several facial recognition technologies, including 3D passive face liveness detection, face recognition, automatic face capture, and analysis of various face attributes such as age, gender, face quality, facial occlusion, eye closure, and mouth opening.
 
 The system utilizes Face Liveness Detection technology to generate a real-time liveness score based on a single image captured by the camera. 
 
 Additionally, this demo offers Face Recognition capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
 
-The demo also features an automatic Face Capture function that verifies various facial attributes, such as face quality, facial orientation (yaw, roll, pitch), facial occlusion (e.g., mask, sunglass, hand over face), eye closure, mouth opening, and the position of the face within the region of interest (ROI).
+This repository features an automatic Face Capture function that verifies various facial attributes, such as face quality, facial orientation (yaw, roll, pitch), facial occlusion (e.g., mask, sunglass, hand over face), eye closure, mouth opening, and the position of the face within the region of interest (ROI).
 
-Moreover, the demo can compute scores for different face attributes from a gallery image, including liveness, face orientation (yaw, roll, pitch), face quality, luminance of the face, facial occlusion, eye closure, mouth opening, age, and gender.
+Moreover, the repository can compute scores for different face attributes from a gallery image, including liveness, face orientation (yaw, roll, pitch), face quality, luminance of the face, facial occlusion, eye closure, mouth opening, age, and gender.
 
-> The demo is integrated with KBY-AI's Premium Face Mobile SDK.
+> In this repository, we integrated KBY-AI's Premium Face Mobile SDK into iOS platform.</br>
+### ◾FaceSDK(Mobile) Details
 
-  | Basic      | Standard | Premium |
+  | Basic      | Standard | 🔽 Premium |
   |------------------|------------------|------------------|
-  | Face Detection        | Face Detection    | Face Detection |
-  | Face Liveness Detection        | Face Liveness Detection    | Face Liveness Detection |
-  | Pose Estimation        | Pose Estimation    | Pose Estimation |
-  |         | Face Recognition    | Face Recognition |
-  |         |         | 68 points Face Landmark Detection |
-  |         |         | Face Quality Calculation |
-  |         |         | Face Occlusion Detection |
-  |         |         | Eye Closure Detection |
-  |         |         | Age, Gender Estimation |
+  | Face Detection        | Face Detection    | <b>Face Detection</b> |
+  | Face Liveness Detection        | Face Liveness Detection    | <b>Face Liveness Detection</b> |
+  | Pose Estimation        | Pose Estimation    | <b>Pose Estimation</b> |
+  |         | Face Recognition    | <b>Face Recognition</b> |
+  |         |         | <b>68 points Face Landmark Detection</b> |
+  |         |         | <b>Face Quality Calculation</b> |
+  |         |         | <b>Face Occlusion Detection</b> |
+  |         |         | <b>Eye Closure Detection</b> |
+  |         |         | <b>Age, Gender Estimation</b> |
 
-> For other solutions, please explore the following:
->
-> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
-> 
-> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-> 
-> [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
-> 
-> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
-> 
-> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
-> 
-> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
->
-> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
-> 
-> [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
+### ◾FaceSDK(Mobile) Product List
+  | No.      | Repository | SDK Details |
+  |------------------|------------------|------------------|
+  | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
+  | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
+  | 3        | [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)    | Standard SDK |
+  | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
+  | 5        | [Face Recognition - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
+  | 6        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
+  | 7        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
+  | ➡️        | <b>[Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)</b>        | <b>Premium SDK</b> |
+
+ > To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
 
 ## Download on the App Store
 
@@ -93,18 +83,12 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceAttribute-iOS/blob/3e377692dcd101067ba57033db8a43a84ceced28/FaceAttribute/ViewController.swift#L42-L51
 
-- To request a license, please contact us:
-  ```
-  Email: contact@kby-ai.com
-
-  Telegram: @kbyai
-
-  WhatsApp: +19092802609
-
-  Skype: live:.cid.66e2522354b1049b
-
-  Facebook: https://www.facebook.com/KBYAI
-  ```
+- To request a license, please contact us:</br>
+🧙`Email:` contact@kby-ai.com</br>
+🧙`Telegram:` @kbyai</br>
+🧙`WhatsApp:` +19092802609</br>
+🧙`Skype:` live:.cid.66e2522354b1049b</br>
+🧙`Facebook:` https://www.facebook.com/KBYAI</br>
 
 ## About SDK
 
