@@ -8,7 +8,8 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     @IBOutlet weak var faceView: FaceView!
     @IBOutlet weak var resultView: UIView!
     
-    
+    let session = AVCaptureSession()
+
     @IBOutlet weak var enrolledImage: UIImageView!
     @IBOutlet weak var identifiedImage: UIImageView!
     @IBOutlet weak var identifiedLbl: UILabel!
@@ -62,7 +63,6 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         }
         
         // Create an AVCaptureSession
-        let session = AVCaptureSession()
         session.sessionPreset = .high
 
         // Create an AVCaptureDevice for the camera
@@ -174,6 +174,8 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
                         self.rollLbl.text = "Roll: " + String(format: "%.03f", faceBox.yaw)
                         self.pitchLbl.text = "Pitch: " + String(format: "%.03f", faceBox.yaw)
                         self.resultView.showView(isHidden_: true)
+                        
+                        self.session.stopRunning()
                     }
                 }
             }
@@ -183,6 +185,8 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     @IBAction func done_clicked(_ sender: Any) {
         self.resultView.showView(isHidden_: false)
         recognized = false
+        
+        session.startRunning()
     }
     
 }

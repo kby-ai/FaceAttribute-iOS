@@ -10,7 +10,6 @@
 		CE08D25A29ED8D4F0071F025 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08D25929ED8D4F0071F025 /* ToastView.swift */; };
 		CE1C76A72A0960F900CB9CE3 /* AttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C76A62A0960F900CB9CE3 /* AttributeViewController.swift */; };
 		CE29C50529ECD0A5008EDB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50429ECD0A5008EDB5A /* AppDelegate.swift */; };
-		CE29C50729ECD0A5008EDB5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50629ECD0A5008EDB5A /* SceneDelegate.swift */; };
 		CE29C50929ECD0A5008EDB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50829ECD0A5008EDB5A /* ViewController.swift */; };
 		CE29C50C29ECD0A5008EDB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE29C50A29ECD0A5008EDB5A /* Main.storyboard */; };
 		CE29C50F29ECD0A5008EDB5A /* FaceAttribute.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE29C50D29ECD0A5008EDB5A /* FaceAttribute.xcdatamodeld */; };
@@ -67,7 +66,6 @@
 		CE1C76A62A0960F900CB9CE3 /* AttributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeViewController.swift; sourceTree = "<group>"; };
 		CE29C50129ECD0A5008EDB5A /* FaceAttribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAttribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE29C50429ECD0A5008EDB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE29C50629ECD0A5008EDB5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE29C50829ECD0A5008EDB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE29C50B29ECD0A5008EDB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE29C50E29ECD0A5008EDB5A /* FaceRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceRecognition.xcdatamodel; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 			children = (
 				CE29C50429ECD0A5008EDB5A /* AppDelegate.swift */,
 				CE08D25929ED8D4F0071F025 /* ToastView.swift */,
-				CE29C50629ECD0A5008EDB5A /* SceneDelegate.swift */,
 				CEF44D6F2A05404A002AD362 /* CaptureViewController.swift */,
 				CE29C50829ECD0A5008EDB5A /* ViewController.swift */,
 				CE29C54929ED7527008EDB5A /* PersonViewCell.swift */,
@@ -327,7 +324,6 @@
 				CE08D25A29ED8D4F0071F025 /* ToastView.swift in Sources */,
 				CE29C54129ECE15C008EDB5A /* AboutViewController.swift in Sources */,
 				CE29C54329ECE15C008EDB5A /* CameraViewController.swift in Sources */,
-				CE29C50729ECD0A5008EDB5A /* SceneDelegate.swift in Sources */,
 				CEF44D702A05404A002AD362 /* CaptureViewController.swift in Sources */,
 				CE29C54829ED6A0C008EDB5A /* Model.xcdatamodeld in Sources */,
 				CE29C54229ECE15C008EDB5A /* SettingsViewController.swift in Sources */,
@@ -508,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G7RACBX72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,7 +518,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G7RACBX72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,7 +556,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
