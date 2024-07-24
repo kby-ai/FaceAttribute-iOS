@@ -112,7 +112,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 - Step One
 
   To begin, you need to activate the SDK using the license that you have received.
-  ```
+  ```swift
   FaceSDK.setActivation("...") 
   ```
   If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
@@ -120,7 +120,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 - Step Two
 
   After activation, call the SDK's initialization function.
-  ```
+  ```swift
   FaceSDK.initSDK()
   ```
   If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
@@ -167,7 +167,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
   The function can be used as follows:
 
-  ```
+  ```swift
   let faceBoxes = FaceSDK.faceDetection(image, param: param)
   ```
 
@@ -179,7 +179,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
   The FaceSDK provides a function that can generate a template from a UIImage image. This template can then be used to verify the identity of the individual captured in the image.
 
-  ```
+  ```swift
   let templates = FaceSDK.templateExtraction(image, faceBox: faceBox)
   ```
 
@@ -191,7 +191,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
   The "similarityCalculation" function takes a byte array of two templates as a parameter. 
 
-  ```
+  ```swift
   let similarity = FaceSDK.similarityCalculation(templates, templates2: personTemplates)
   ```
 
