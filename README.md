@@ -46,10 +46,11 @@ Moreover, the repository can compute scores for different face attributes from a
   | 3        | [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)    | Standard SDK |
   | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
   | 5        | [Face Recognition - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
-  | 6        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
-  | 7        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
+  | 6        | [Face Recognition - Ionic-Cordova](https://github.com/kby-ai/FaceRececogniion-Ionic-Cordova)        | Standard SDK |
+  | 7        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
+  | 8        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
   | ➡️        | <b>[Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)</b>        | <b>Premium SDK</b> |
-  | 9        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
+  | 10        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
 
  > To get `Face SDK(server)`, please visit products [here](https://github.com/kby-ai/Product).<br/>
 
