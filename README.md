@@ -13,17 +13,17 @@
 
 ## Overview
 
-This repository integrates several facial recognition technologies, including 3D passive face liveness detection, face recognition, automatic face capture, and analysis of various face attributes such as age, gender, face quality, facial occlusion, eye closure, and mouth opening.
+This repository integrates several `facial recognition` technologies, including `3D passive face liveness detection`, `face recognition`, `automatic face capture`, and analysis of various `face attribute`s such as `age`, `gender`, `face quality`, `facial occlusion`, `eye closure`, and `mouth opening`.
 
-The system utilizes Face Liveness Detection technology to generate a real-time liveness score based on a single image captured by the camera. 
+The system utilizes `Face Liveness Detection` technology to generate a real-time liveness score based on a single image captured by the camera. 
 
-Additionally, this demo offers Face Recognition capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
+Additionally, this demo offers `Face Recognition` capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
 
-This repository features an automatic Face Capture function that verifies various facial attributes, such as face quality, facial orientation (yaw, roll, pitch), facial occlusion (e.g., mask, sunglass, hand over face), eye closure, mouth opening, and the position of the face within the region of interest (ROI).
+This repository features an `automatic Face Capture` function that verifies various `facial attributes`, such as `face quality`, `facial orientation` (yaw, roll, pitch), `facial occlusion` (e.g., mask, sunglass, hand over face), `eye closure`, `mouth opening`, and the position of the face within the `region of interest` (`ROI`).
 
-Moreover, the repository can compute scores for different face attributes from a gallery image, including liveness, face orientation (yaw, roll, pitch), face quality, luminance of the face, facial occlusion, eye closure, mouth opening, age, and gender.
+Moreover, the repository can compute scores for different face attributes from a gallery image, including `liveness`, `face orientation` (yaw, roll, pitch), `face quality`, `luminance of the face`, `facial occlusion`, `eye closure`, `mouth opening`, `age`, and `gender`.
 
-> In this repository, we integrated KBY-AI's Premium Face Mobile SDK into iOS platform.</br>
+> In this repository, we integrated `KBY-AI`'s `Premium Face Mobile SDK` into `iOS` platform.</br>
 ### ◾FaceSDK(Mobile) Details
 
   | Basic      | Standard | 🔽 Premium |
@@ -51,7 +51,7 @@ Moreover, the repository can compute scores for different face attributes from a
   | ➡️        | <b>[Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)</b>        | <b>Premium SDK</b> |
   | 9        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
 
- > To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
+ > To get `Face SDK(server)`, please visit products [here](https://github.com/kby-ai/Product).<br/>
 
 ## Download on the App Store
 
@@ -80,7 +80,7 @@ Moreover, the repository can compute scores for different face attributes from a
 
 ## SDK License
 
-The face attribute project relies on KBY-AI's SDK, which requires a license for each bundle ID.
+The `face attribute` project relies on `KBY-AI`'s SDK, which requires a license for each `bundle ID` from `iOS` project.
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceAttribute-iOS/blob/3e377692dcd101067ba57033db8a43a84ceced28/FaceAttribute/ViewController.swift#L42-L51
 
@@ -94,9 +94,9 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 ## About SDK
 
 ### 1. Set up
-- Copy the SDK (facesdk.framework folder) to the root folder of your project.
+- Copy the `SDK` (`facesdk.framework` folder) to the `root` folder in your project.
 
-- Add SDK framework to the project in xcode
+- Add `SDK framework` to the project in `Xcode`.
 
 > Project Navigator -> General -> Frameworks, Libraries, and Embedded Content
 
@@ -112,25 +112,25 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
 - Step One
 
-  To begin, you need to activate the SDK using the license that you have received.
+  To begin, you need to activate the `SDK` using the license that you have received.
   ```swift
   FaceSDK.setActivation("...") 
   ```
-  If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+  If activation is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 - Step Two
 
-  After activation, call the SDK's initialization function.
+  After activation, call the `SDK`'s initialization function.
   ```swift
   FaceSDK.initSDK()
   ```
-  If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+  If initialization is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 ### 3. SDK Classes
 
   - FaceBox
   
-    This class represents the output of the face detection function and can be utilized in template creation functions.
+    This class represents the output of the face detection function and can be utilized in `template` creation functions.
 
     | Feature| Type | Name |
     |------------------|------------------|------------------|
@@ -151,7 +151,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 
   - FaceDetectionParam
   
-    This class serves as the input parameter for face detection, enabling various processing functionalities such as face liveness detection, eye closure checking, facial occlusion checking, mouth opening checking, and age and gender estimation.
+    This class serves as the input parameter for `face detection`, enabling various processing functionalities such as `face liveness detection`, `eye closure checking`, `facial occlusion checking`, `mouth opening checking`, and `age and gender estimation`.
 
     | Feature| Type | Name |
     |------------------|------------------|------------------|
@@ -164,7 +164,7 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
 ### 4. SDK APIs
 #### - Face Detection
 
-  The Face SDK provides a unified function for detecting faces, enabling multiple functionalities such as liveness detection, face orientation (yaw, roll, pitch), face quality, facial occlusion, eye closure, mouth opening, age, gender, and facial landmarks.
+  The `Face SDK` provides a unified function for detecting faces, enabling multiple functionalities such as `liveness detection`, `face orientation` (yaw, roll, pitch), `face quality`, `facial occlusion`, `eye closure`, `mouth opening`, `age`, `gender`, and `facial landmarks`.
 
   The function can be used as follows:
 
@@ -172,25 +172,25 @@ The face attribute project relies on KBY-AI's SDK, which requires a license for 
   let faceBoxes = FaceSDK.faceDetection(image, param: param)
   ```
 
-  This function requires two parameters: a UIImage object and a FaceDetectionParam object that enables various processing functionalities.
+  This function requires two parameters: a `UIImage` object and a `FaceDetectionParam` object that enables various processing functionalities.
 
-  The function returns a list of FaceBox objects.
+  The function returns a list of `FaceBox` objects.
 
 #### - Create Templates
 
-  The FaceSDK provides a function that can generate a template from a UIImage image. This template can then be used to verify the identity of the individual captured in the image.
+  The `FaceSDK` provides a function that can generate a `template` from a `UIImage` image. This template can then be used to verify the identity of the individual image captured.
 
   ```swift
   let templates = FaceSDK.templateExtraction(image, faceBox: faceBox)
   ```
 
-  The SDK's template extraction function takes two parameters: a UIImage object and an object of FaceBox. 
+  The `SDK`'s `template` extraction function takes two parameters: a `UIImage` object and an object of `FaceBox`. 
 
-  The function returns a Data, which contains the template that can be used for person verification.
+  The function returns a `Data`, which contains the `template` that can be used for person verification.
 
 #### - Calculation similiarity
 
-  The "similarityCalculation" function takes a byte array of two templates as a parameter. 
+  The `similarityCalculation` function takes a byte array of two `template`s as a parameter. 
 
   ```swift
   let similarity = FaceSDK.similarityCalculation(templates, templates2: personTemplates)
