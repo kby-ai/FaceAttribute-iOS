@@ -198,3 +198,5 @@ The `face attribute` project relies on `KBY-AI`'s SDK, which requires a license 
   ```
 
   It returns the similarity value between the two templates, which can be used to determine the level of likeness between the two individuals.
+
+[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceAttribute-iOS&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceAttribute-iOS)
