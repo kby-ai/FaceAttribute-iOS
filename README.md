@@ -64,6 +64,11 @@ Moreover, the repository can compute scores for different face attributes from a
   <img alt="" src="https://user-images.githubusercontent.com/125717930/235276083-d20fe057-214d-497c-a431-4569bbeed2fe.png" height=80/>
 </a>
 
+## Performance Video
+
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=-WiAethTacc) to see how well our demo app works.</br></br>
+[![Face Recognition Android](https://img.youtube.com/vi/-WiAethTacc/0.jpg)](https://www.youtube.com/watch?v=-WiAethTacc)
+
 ## Screenshots
 <p float="left">
   <img src="https://github.com/kby-ai/FaceAttribute-iOS/assets/125717930/66a5037d-426c-4ea0-8e65-db0f456360d0" width=240/>
