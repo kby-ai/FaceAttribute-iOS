@@ -99,9 +99,8 @@ The `face attribute` project relies on `KBY-AI`'s SDK, which requires a license 
 - To request a license, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
-🧙`WhatsApp:` [+13348402323](https://wa.me/+13348402323)</br>
-🧙`Discord:` [KBY-AI](https://discord.gg/6wm383re2s)</br>
-🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
+🧙`WhatsApp:` [+1 (334) 840-2323](https://wa.me/+13348402323)</br>
+🧙`Discord:` [KBY-AI Community](https://discord.gg/dRQgmnEDR)</br>
 
 ## About SDK
 
